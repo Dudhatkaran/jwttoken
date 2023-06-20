@@ -5,7 +5,7 @@ const Login = () => {
 
     const clickToSubmit = async (event) => {
         event.preventDefault();
-        fetch('http://localhost:1234/api/login', {
+        fetch('http://localhost:1010/api/login', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",

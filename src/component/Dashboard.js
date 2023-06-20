@@ -1,7 +1,6 @@
 import React from 'react'
 import { toast } from 'react-toastify';
 
-
 const Dashboard = () => {
     const clickTo = async () => {
         fetch('http://localhost:1010/api/all', {
